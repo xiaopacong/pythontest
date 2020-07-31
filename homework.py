@@ -1,0 +1,9 @@
+'''
+通过python实现一个自动录入成绩的程序，输入学生的名字和成绩，然后成对的储存起来，
+输入结束后，打印出结果
+'''
+a={}
+name=input("请输入学生姓名：")
+grade=input("输入成绩为：")
+a.update(name=grade)
+print(a)
